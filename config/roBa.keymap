@@ -105,7 +105,7 @@
 &kp ESCAPE       &kp HOME          &kp UP_ARROW    &kp END          &kp LC(C)                                  &kp F10    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
 &trans           &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(V)       &trans      &kp F4         &kp F2     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0
 &msc MOVE_X(-5)  &msc SCRL_LEFT    &trans          &msc SCRL_RIGHT  &msc MOVE_X(5)  &trans      &kp F12        &kp F7     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0
-&kp LEFT_SHIFT   &kp LEFT_CONTROL  &kp LEFT_GUI    &kp LEFT_ALT     &trans          &trans      &kp BACKSPACE  &kp ENTER                                            &kp C_MUTE
+&kp LEFT_SHIFT   &kp LEFT_CONTROL  &kp LEFT_GUI    &kp LEFT_ALT     &trans          &trans      &kp BACKSPACE  &kp ENTER                                            &kp LS(LC(M))
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
@@ -133,10 +133,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans    &trans  &trans    &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &mkp MB4  &trans  &mkp MB5  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans    &trans  &trans    &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans    &trans  &trans    &trans  &trans      &trans  &trans                                &trans
+&trans  &trans      &trans  &trans         &trans                      &trans  &trans    &trans    &trans    &trans
+&trans  &kp K_BACK  &trans  &kp K_FORWARD  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans      &trans  &trans         &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans      &trans  &trans         &trans  &trans      &trans  &trans                                &trans
             >;
         };
 
