@@ -98,10 +98,10 @@
 
         FUNCTIONandNUM {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&kp ESCAPE      &kp HOME          &kp UP_ARROW    &kp END          &kp LC(C)                             &kp F10    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&trans          &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(V)  &trans      &kp F4         &kp F2     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0
+&trans          &trans            &trans          &trans           &kp LC(X)  &trans      &kp F12        &kp F7     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0
+&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_GUI    &kp LEFT_ALT     &trans     &trans      &kp BACKSPACE  &kp ENTER                                            &kp NUMBER_0
             >;
         };
 
