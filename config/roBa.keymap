@@ -94,7 +94,7 @@
 &mt LEFT_SHIFT GRAVE  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &lt 1 SPACE  &lt_to_layer_0 2 TAB      &kp BACKSPACE  &mt LEFT_CONTROL ENTER                             &kp LG(TAB)
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP K_VOLUME_DOWN>;
         };
 
         FUNCTIONandNUM {
