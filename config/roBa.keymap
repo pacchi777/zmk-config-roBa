@@ -97,7 +97,7 @@
 &mt LEFT_SHIFT GRAVE  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &lt 1 SPACE  &lt_to_layer_0 2 TAB      &kp BACKSPACE  &mt LEFT_CONTROL ENTER                             &kp LG(TAB)
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PLUS) LC(MINUS)>;
+            sensor-bindings = <&inc_dec_kp LC(MINUS) LC(PLUS)>;
         };
 
         FUNCTIONandNUM {
