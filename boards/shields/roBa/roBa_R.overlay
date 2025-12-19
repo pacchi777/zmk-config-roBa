@@ -18,7 +18,7 @@
 &zip_temp_layer {
     excluded-positions = <
         37 //Alt
-        38 //Space
+        39 //Tab
         18 //J
         19 //K
         20 //L
