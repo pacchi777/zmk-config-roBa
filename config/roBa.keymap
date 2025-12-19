@@ -97,7 +97,7 @@
 &mt LEFT_SHIFT GRAVE  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &lt 1 SPACE  &lt_to_layer_0 2 TAB      &kp BACKSPACE  &mt LEFT_CONTROL ENTER                             &kp LG(TAB)
             >;
 
-            sensor-bindings = <&inc_dec_kp LS(C_AC_ZOOM_OUT) C_AC_ZOOM_IN>;
+            sensor-bindings = <&inc_dec_kp LC(PLUS) LC(MINUS)>;
         };
 
         FUNCTIONandNUM {
@@ -133,10 +133,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans      &trans  &trans         &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &kp K_BACK  &trans  &kp K_FORWARD  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans      &trans  &trans         &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans      &trans  &trans         &trans  &trans      &trans  &trans                                &trans
+&trans  &trans    &trans  &trans    &trans                      &trans  &trans    &trans    &trans    &trans
+&trans  &mkp MB4  &trans  &mkp MB5  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans    &trans  &trans    &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans    &trans  &trans    &trans  &trans      &trans  &trans                                &trans
             >;
         };
 
