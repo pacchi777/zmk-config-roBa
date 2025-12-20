@@ -112,6 +112,16 @@
             bindings = <&kp GRAVE>;
             key-positions = <13 18>;
         };
+
+        next_tab {
+            bindings = <&kp LC(TAB)>;
+            key-positions = <3 2>;
+        };
+
+        prev_tab {
+            bindings = <&kp LC(LS(TAB))>;
+            key-positions = <2 1>;
+        };
     };
 
     macros {
