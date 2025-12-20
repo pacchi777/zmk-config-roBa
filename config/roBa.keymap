@@ -43,19 +43,49 @@
             key-positions = <12 13>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
         eq {
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
+        };
+
+        prev {
+            bindings = <&mkp MB4>;
+            key-positions = <18 19>;
+        };
+
+        next {
+            bindings = <&mkp MB5>;
+            key-positions = <19 20>;
+        };
+
+        hidari_kakko {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <6 7>;
+        };
+
+        migi_kakko {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <8 9>;
+        };
+
+        under_bar {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <7 8>;
+        };
+
+        atto_mark {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <30 31>;
+        };
+
+        sharp {
+            bindings = <&kp HASH>;
+            key-positions = <31 32>;
+        };
+
+        left_click {
+            bindings = <&mkp MB1>;
+            key-positions = <18 19 20>;
         };
     };
 
