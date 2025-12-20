@@ -122,6 +122,11 @@
             bindings = <&kp LC(LS(TAB))>;
             key-positions = <2 1>;
         };
+
+        add_new_screen {
+            bindings = <&kp LC(LG(D))>;
+            key-positions = <13 12 11 10 18 19 20 21>;
+        };
     };
 
     macros {
@@ -173,7 +178,7 @@
 &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_GUI    &kp LEFT_ALT     &trans     &trans      &kp BACKSPACE  &kp ENTER                                            &kp LS(LC(M))
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         SINBOL {
@@ -183,6 +188,8 @@
 &trans        &trans           &trans           &trans           &kp PERIOD    &kp EQUAL      &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
 &trans        &trans           &trans           &trans           &trans        &trans         &trans          &trans                                                                     &kp PIPE
             >;
+
+            sensor-bindings = <&inc_dec_kp LC(LG(LEFT_ARROW)) LC(LG(RIGHT_ARROW))>;
         };
 
         ARROW {
