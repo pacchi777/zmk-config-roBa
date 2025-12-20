@@ -87,6 +87,11 @@
             bindings = <&mkp MB1>;
             key-positions = <18 19 20>;
         };
+
+        double_chonchon {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <20 21>;
+        };
     };
 
     macros {
