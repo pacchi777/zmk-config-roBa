@@ -107,6 +107,11 @@
             bindings = <&kp LA(ENTER)>;
             key-positions = <30 31 32 33>;
         };
+
+        change_laguage {
+            bindings = <&kp GRAVE>;
+            key-positions = <13 18>;
+        };
     };
 
     macros {
