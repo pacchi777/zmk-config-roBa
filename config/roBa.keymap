@@ -172,10 +172,10 @@
 
         FUNCTIONandNUM {
             bindings = <
-&kp ESCAPE      &kp HOME          &kp UP_ARROW    &kp END          &kp LC(C)                             &kp F10    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&trans          &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(V)  &trans      &kp F4         &kp F2     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0
-&trans          &trans            &trans          &trans           &kp LC(X)  &trans      &kp F12        &kp F7     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0
-&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_GUI    &kp LEFT_ALT     &trans     &trans      &kp BACKSPACE  &kp ENTER                                            &kp LS(LC(M))
+&kp ESCAPE      &kp HOME                &kp UP_ARROW    &kp END                  &kp LC(C)                             &kp F10    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&trans          &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp LG(V)  &trans      &kp F4         &kp F2     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0
+&trans          &kp LC(LG(LEFT_ARROW))  &trans          &kp LG(LC(RIGHT_ARROW))  &kp LC(X)  &trans      &kp F12        &kp F7     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0
+&kp LEFT_SHIFT  &kp LEFT_CONTROL        &kp LEFT_GUI    &kp LEFT_ALT             &trans     &trans      &kp BACKSPACE  &kp ENTER                                            &kp LS(LC(M))
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -188,8 +188,6 @@
 &trans        &trans           &trans           &trans           &kp PERIOD    &kp EQUAL      &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
 &trans        &trans           &trans           &trans           &trans        &trans         &trans          &trans                                                                     &kp PIPE
             >;
-
-            sensor-bindings = <&inc_dec_kp LC(LG(LEFT_ARROW)) LC(LG(RIGHT_ARROW))>;
         };
 
         ARROW {
