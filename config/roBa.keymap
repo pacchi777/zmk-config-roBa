@@ -92,6 +92,21 @@
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
         };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <18 19 20 21>;
+        };
+
+        shift_enter {
+            bindings = <&kp LS(ENTER)>;
+            key-positions = <6 7 8 9>;
+        };
+
+        alt_enter {
+            bindings = <&kp LA(ENTER)>;
+            key-positions = <30 31 32 33>;
+        };
     };
 
     macros {
