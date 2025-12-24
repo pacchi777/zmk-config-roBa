@@ -48,12 +48,12 @@
             key-positions = <24 25>;
         };
 
-        prev {
+        left_click {
             bindings = <&mkp MB1>;
             key-positions = <18 19>;
         };
 
-        next {
+        right_click {
             bindings = <&mkp MB2>;
             key-positions = <19 20>;
         };
@@ -81,11 +81,6 @@
         sharp {
             bindings = <&kp HASH>;
             key-positions = <31 32>;
-        };
-
-        left_click {
-            bindings = <&mkp MB1>;
-            key-positions = <18 19 20>;
         };
 
         change_laguage {
