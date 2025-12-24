@@ -49,12 +49,12 @@
         };
 
         prev {
-            bindings = <&mkp MB4>;
+            bindings = <&mkp MB1>;
             key-positions = <18 19>;
         };
 
         next {
-            bindings = <&mkp MB5>;
+            bindings = <&mkp MB2>;
             key-positions = <19 20>;
         };
 
@@ -88,26 +88,6 @@
             key-positions = <18 19 20>;
         };
 
-        double_chonchon {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
-        enter {
-            bindings = <&kp ENTER>;
-            key-positions = <18 19 20 21>;
-        };
-
-        shift_enter {
-            bindings = <&kp LS(ENTER)>;
-            key-positions = <6 7 8 9>;
-        };
-
-        alt_enter {
-            bindings = <&kp LA(ENTER)>;
-            key-positions = <30 31 32 33>;
-        };
-
         change_laguage {
             bindings = <&kp GRAVE>;
             key-positions = <13 18>;
@@ -126,6 +106,16 @@
         add_new_screen {
             bindings = <&kp LC(LG(D))>;
             key-positions = <13 12 11 10 18 19 20 21>;
+        };
+
+        prev {
+            bindings = <&mkp MB4>;
+            key-positions = <17 18>;
+        };
+
+        next {
+            bindings = <&mkp MB5>;
+            key-positions = <20 21>;
         };
     };
 
