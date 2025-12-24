@@ -25,15 +25,15 @@
 //    require-prior-idle-ms = <500>;
 //};
 
-/ {
-    trackball_listener {
-        status = "okay";
-        compatible = "zmk,input-listener";
-        device = <&trackball>;
+// {
+//  trackball_listener {
+//        status = "okay";
+//        compatible = "zmk,input-listener";
+//        device = <&trackball>;
 
         // input-processors = <&zip_temp_layer 4 10000>;
-    };
-};
+//};
+//};
 
 &pinctrl {
     spi0_default: spi0_default {
