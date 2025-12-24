@@ -162,7 +162,7 @@
         default_layer {
             bindings = <
 &lt 5 Q               &kp W             &kp E         &kp R         &kp T                                                 &kp Y                   &kp U  &lt 5 I    &kp O    &kp P
-&mt LEFT_SHIFT A      &kp S             &kp D         &kp F         &kp G        &kp LS(LG(S))             &kp APOS       &kp H                   &kp J  &kp K      &kp L    &lt 5 MINUS
+&kp A                 &kp S             &kp D         &kp F         &kp G        &kp LS(LG(S))             &kp APOS       &kp H                   &kp J  &kp K      &kp L    &lt 5 MINUS
 &mt LEFT_SHIFT Z      &kp X             &kp C         &kp V         &kp B        &kp LG(TAB)               &kp SEMICOLON  &kp N                   &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &mt LEFT_SHIFT GRAVE  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &lt 1 SPACE  &lt_to_layer_0 2 TAB      &kp BACKSPACE  &mt LEFT_CONTROL ENTER                             &kp DELETE
             >;
@@ -174,7 +174,7 @@
             bindings = <
 &kp ESCAPE      &kp HOME                &kp UP_ARROW    &kp END                  &kp LC(C)                             &kp F10    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
 &kp F5          &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp LG(V)  &trans      &kp F4         &kp F2     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0
-&trans          &kp LC(LG(LEFT_ARROW))  &trans          &kp LG(LC(RIGHT_ARROW))  &kp LC(X)  &trans      &kp F12        &kp F7     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0
+&kp LEFT_GUI    &kp LC(LG(LEFT_ARROW))  &trans          &kp LG(LC(RIGHT_ARROW))  &kp LC(X)  &trans      &kp F12        &kp F7     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0
 &kp LEFT_SHIFT  &kp LEFT_CONTROL        &kp LEFT_GUI    &kp LEFT_ALT             &trans     &trans      &kp BACKSPACE  &kp ENTER                                            &kp LS(LC(M))
             >;
 
