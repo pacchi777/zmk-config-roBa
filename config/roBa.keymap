@@ -100,7 +100,7 @@
 
         prev {
             bindings = <&mkp MB4>;
-            key-positions = <17 18>;
+            key-positions = <17 16>;
         };
 
         next {
