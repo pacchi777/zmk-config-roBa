@@ -85,12 +85,12 @@
 
         next_tab {
             bindings = <&kp LC(TAB)>;
-            key-positions = <3 2>;
+            key-positions = <3 4>;
         };
 
         prev_tab {
             bindings = <&kp LC(LS(TAB))>;
-            key-positions = <2 1>;
+            key-positions = <1 0>;
         };
 
         add_new_screen {
