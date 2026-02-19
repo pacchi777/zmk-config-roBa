@@ -107,6 +107,11 @@
             bindings = <&mkp MB5>;
             key-positions = <20 21>;
         };
+
+        asutarisuku {
+            bindings = <&kp ASTRK>;
+            key-positions = <24 23>;
+        };
     };
 
     macros {
