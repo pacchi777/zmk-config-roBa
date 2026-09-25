@@ -187,7 +187,7 @@
         oonishi_Layer {
             bindings = <
 &trans  &kp L   &kp U   &kp COMMA  &kp PERIOD                      &kp F   &kp W  &kp R  &kp Y  &trans
-&kp E   &kp I   &kp A   &kp O      &kp MINUS   &trans      &trans  &kp K   &kp T  &kp N  &kp S  &kp H
+&kp E   &kp I   &kp A   &kp O      &kp MINUS   &trans      &trans  &kp K   &kp T  &kp N  &kp S  &lt 5 H
 &trans  &trans  &trans  &trans     &trans      &trans      &trans  &kp G   &kp D  &kp M  &kp J  &kp B
 &trans  &trans  &trans  &trans     &trans      &trans      &trans  &trans                       &trans
             >;
